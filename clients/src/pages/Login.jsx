@@ -90,7 +90,7 @@ function Login() {
           {/* <img className='w-[100px] absolute -top-16 left-28' src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/78c4af118001599.608076cf95739.jpg" alt="" /> */}
           <div className='absolute -top-5 left-0'>
             <h3 className=' text-[25px] font-bold tracking-wider '>Login</h3>
-            <p className=' text-[12px] tracking-wider font-medium'>Create Account<Link className='text-blue-700 underline' to="/register">Sign up</Link></p>
+            <p className=' text-[12px] tracking-wider font-medium'>Create Account <Link className='text-blue-700 underline' to="/register">Sign up</Link></p>
           </div>
           {/* <h2 className='text-2xl text-[#fff] font-bold tracking-wide my-6 text-center'>Login to your Account</h2> */}
           <form className='flex flex-col gap-y-3 mt-[12%]' onSubmit={formSubmit}>
