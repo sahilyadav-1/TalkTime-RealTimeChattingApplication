@@ -10,8 +10,8 @@ function Start() {
         pageRoute("/login")
       }
       else {
-        pageRoute("/chats")
-
+        // pageRoute("/chats")
+        pageRoute("/login")
       }
     }
     isValid()
